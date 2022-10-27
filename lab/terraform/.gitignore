@@ -1,0 +1,8 @@
+**/.terraform/
+**/.terraform.*
+**/*.tfvars
+**/*.tfstate
+**/*.tfstate.*
+**/lab_sshkey
+**/*plan*
+**/backend.tf
