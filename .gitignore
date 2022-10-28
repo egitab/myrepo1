@@ -16,6 +16,8 @@ jboss/server/minimal/work/**/*
 
 # deployed package files #
 
+
+# Terraform
 *.DEPLOYED
 **/.terraform/
 **/.terraform.*
@@ -25,3 +27,8 @@ jboss/server/minimal/work/**/*
 **/lab_sshkey
 **/*plan*
 **/backend.tf
+
+# Ansible
+*.tmp
+*.bkp
+*.retry
